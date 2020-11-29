@@ -3,8 +3,11 @@
 	#include "../shared/exodus_torch/_include.dm"
 
 //primary
-	#include "alaska_define.dm"
-	#include "alaska.dmm"
+//	#include "alaska_define.dm"
+	#include "alaska-1.dmm"
+	#include "alaska-2.dmm"
+	#include "alaska-3.dmm"
+	#include "alaska-4.dmm"
 //
 
 //misc

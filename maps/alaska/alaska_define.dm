@@ -6,11 +6,11 @@
 
 	lobby_icon = 'maps/alaska/alaska_lobby.dmi'
 
-	station_levels = list(1,2,3)
-	admin_levels = list(4)
-	contact_levels = list(1,2,3)
-	player_levels = list(1,2,3)
-	accessible_z_levels = list("1"=1,"2"=1,"3"=1) //Percentage of chance to get on this or that Z level as you drift through space.
+	station_levels = list(1,2,3,4)
+	admin_levels = list(8)
+	contact_levels = list(1,2,3,4)
+	player_levels = list(1,2,3,4)
+	accessible_z_levels = list("1"=1,"2"=1,"3"=1,"4"=100)
 
 	allowed_spawns = list("Highway Overpass")
 	default_spawn = "Highway Overpass"
