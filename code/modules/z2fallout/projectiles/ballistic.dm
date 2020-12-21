@@ -35,7 +35,7 @@
 		list(mode_name="automatic",   burst=1, fire_delay=null, move_delay=6,    one_hand_penalty=6, burst_accuracy=list(0,-1,-2,-3,-3), dispersion=list(0.6, 1.0, 1.2, 1.2, 1.5), automatic = 1),
 		)
 
-/obj/item/weapon/gun/projectile/automatic/ak47/update_icon()
+/obj/item/weapon/gun/projectile/automatic/cpak112/update_icon()
 	icon_state = (ammo_magazine)? "ak47" : "ak47"
 	wielded_item_state = (ammo_magazine)? "ak47" : "ak47"
 	..()
@@ -63,7 +63,7 @@
 	allowed_magazines = /obj/item/ammo_magazine/glock17
 	jam_chance = 0
 
-/obj/item/weapon/gun/projectile/glock17/update_icon()
+/obj/item/weapon/gun/projectile/cp10mm/update_icon()
 	..()
 	if(ammo_magazine && ammo_magazine.stored_ammo.len)
 		icon_state = "n99"
