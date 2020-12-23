@@ -55,6 +55,19 @@
 /obj/item/ammo_magazine/cp10mm/empty
 	initial_ammo = 0
 
+/obj/item/ammo_magazine/cp10mmautomatic
+	name = "SMG magazine (10mm)"
+	icon_state = "uzi45"
+	origin_tech = list(TECH_COMBAT = 2)
+	mag_type = MAGAZINE
+	caliber = "cp10mm"
+	matter = list(DEFAULT_WALL_MATERIAL = 1500)
+	ammo_type = /obj/item/ammo_casing/cp10mm
+	max_ammo = 30
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/cp10mmautomatic/empty
+
 // .45 automatic
 
 /obj/item/ammo_magazine/cp45auto

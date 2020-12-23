@@ -180,8 +180,8 @@
 	origin_tech = list(TECH_COMBAT = 6, TECH_MATERIAL = 1, TECH_ILLEGAL = 3)
 	slot_flags = SLOT_BELT
 	load_method = MAGAZINE
-	magazine_type = /obj/item/ammo_magazine/cp9mmautomatic
-	allowed_magazines = /obj/item/ammo_magazine/cp9mmautomatic
+	magazine_type = /obj/item/ammo_magazine/cp10mmautomatic
+	allowed_magazines = /obj/item/ammo_magazine/cp10mmautomatic
 	one_hand_penalty = 3
 	wielded_item_state = "ak47"
 	unload_sound 	= 'sound/weapons/guns/interact/ltrifle_magout.ogg'
